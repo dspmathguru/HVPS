@@ -69,7 +69,7 @@ F 3 "~" H 2750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0101
+L cake-power:GND #PWR0101
 U 1 1 615824FB
 P 3750 3050
 F 0 "#PWR0101" H 3750 2800 50  0001 C CNN
@@ -145,7 +145,7 @@ Connection ~ 4750 2350
 Wire Wire Line
 	4750 2350 4950 2350
 $Comp
-L HVPS-rescue:VCC-P1-cakepwr #PWR0102
+L cake-power:VCC-P1 #PWR0102
 U 1 1 615896A7
 P 4950 2250
 F 0 "#PWR0102" H 4950 2100 50  0001 C CNN
@@ -441,7 +441,7 @@ Connection ~ 6600 1600
 Wire Wire Line
 	6600 1600 6700 1600
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0103
+L cake-power:GND #PWR0103
 U 1 1 615FAF53
 P 6400 2950
 F 0 "#PWR0103" H 6400 2700 50  0001 C CNN
@@ -452,7 +452,7 @@ F 3 "" H 6400 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0104
+L cake-power:GND #PWR0104
 U 1 1 615FBEB1
 P 7450 2250
 F 0 "#PWR0104" H 7450 2000 50  0001 C CNN
@@ -528,17 +528,6 @@ F 3 "~" H 1700 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0105
-U 1 1 6160D9D2
-P 1700 3650
-F 0 "#PWR0105" H 1700 3400 50  0001 C CNN
-F 1 "GND" H 1700 3477 50  0000 C CNN
-F 2 "" H 1700 3650 50  0001 C CNN
-F 3 "" H 1700 3650 50  0001 C CNN
-	1    1700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L cake-fuse:0678L9150-02 F1
 U 1 1 61610693
 P 1450 1550
@@ -576,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1550 1200 1650
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0106
+L cake-power:GND #PWR0106
 U 1 1 6162E8D0
 P 1200 1650
 F 0 "#PWR0106" H 1200 1400 50  0001 C CNN
@@ -632,7 +621,7 @@ F 3 "~" H 9500 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-P1-cakepwr #PWR0107
+L cake-power:GND-P1 #PWR0107
 U 1 1 6168292D
 P 11700 2000
 F 0 "#PWR0107" H 11700 1750 50  0001 C CNN
@@ -704,7 +693,7 @@ Connection ~ 14050 2400
 Wire Wire Line
 	14050 2400 14050 2600
 $Comp
-L HVPS-rescue:GND-P1-cakepwr #PWR0108
+L cake-power:GND-P1 #PWR0108
 U 1 1 616C193D
 P 14050 2600
 F 0 "#PWR0108" H 14050 2350 50  0001 C CNN
@@ -715,7 +704,7 @@ F 3 "" H 14050 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-P1-cakepwr #PWR0109
+L cake-power:GND-P1 #PWR0109
 U 1 1 616C2183
 P 15600 2250
 F 0 "#PWR0109" H 15600 2000 50  0001 C CNN
@@ -733,7 +722,7 @@ Wire Wire Line
 Wire Wire Line
 	15600 1900 15800 1900
 $Comp
-L HVPS-rescue:VOUT-P1-cakepwr #PWR0110
+L cake-power:VOUT-P1 #PWR0110
 U 1 1 616D000E
 P 15200 1600
 F 0 "#PWR0110" H 15200 1450 50  0001 C CNN
@@ -749,7 +738,7 @@ Connection ~ 15200 1800
 Wire Wire Line
 	15200 1800 15800 1800
 $Comp
-L HVPS-rescue:GND-P11-cakepwr #PWR0111
+L cake-power:GND-P11 #PWR0111
 U 1 1 616EFCB6
 P 8800 3850
 F 0 "#PWR0111" H 8800 3600 50  0001 C CNN
@@ -760,7 +749,7 @@ F 3 "" H 8800 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-P11-cakepwr #PWR0112
+L cake-power:GND-P11 #PWR0112
 U 1 1 616F07EE
 P 9500 4050
 F 0 "#PWR0112" H 9500 3800 50  0001 C CNN
@@ -771,7 +760,7 @@ F 3 "" H 9500 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-P11-cakepwr #PWR0113
+L cake-power:GND-P11 #PWR0113
 U 1 1 616F10B6
 P 10150 3850
 F 0 "#PWR0113" H 10150 3600 50  0001 C CNN
@@ -782,7 +771,7 @@ F 3 "" H 10150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0114
+L cake-power:GND #PWR0114
 U 1 1 616F241E
 P 13900 4100
 F 0 "#PWR0114" H 13900 3850 50  0001 C CNN
@@ -793,7 +782,7 @@ F 3 "" H 13900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-P11-cakepwr #PWR0115
+L cake-power:GND-P11 #PWR0115
 U 1 1 616F34A5
 P 14300 4100
 F 0 "#PWR0115" H 14300 3850 50  0001 C CNN
@@ -804,7 +793,7 @@ F 3 "" H 14300 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HVPS-rescue:GND-P1-cakepwr #PWR0116
+L cake-power:GND-P1 #PWR0116
 U 1 1 616F48AC
 P 14700 4100
 F 0 "#PWR0116" H 14700 3850 50  0001 C CNN
@@ -826,7 +815,7 @@ Wire Wire Line
 	14700 3900 14300 3900
 Connection ~ 14300 3900
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0117
+L cake-power:GND #PWR0117
 U 1 1 6172A5CC
 P 6700 7200
 F 0 "#PWR0117" H 6700 6950 50  0001 C CNN
@@ -894,7 +883,7 @@ F 3 "~" H 7000 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0118
+L cake-power:GND #PWR0118
 U 1 1 61735052
 P 7850 7150
 F 0 "#PWR0118" H 7850 6900 50  0001 C CNN
@@ -920,7 +909,7 @@ VCON-A1
 Wire Wire Line
 	8000 7650 8300 7650
 $Comp
-L HVPS-rescue:VOUT-P1-cakepwr #PWR0119
+L cake-power:VOUT-P1 #PWR0119
 U 1 1 61757A29
 P 7850 6000
 F 0 "#PWR0119" H 7850 5850 50  0001 C CNN
@@ -951,7 +940,7 @@ Connection ~ 7300 6100
 Wire Wire Line
 	7300 6100 7300 6250
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0120
+L cake-power:GND #PWR0120
 U 1 1 61784E57
 P 7300 6250
 F 0 "#PWR0120" H 7300 6000 50  0001 C CNN
@@ -986,7 +975,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 7650 6050 7650
 $Comp
-L HVPS-rescue:VCC-P1-cakepwr #PWR0121
+L cake-power:VCC-P1 #PWR0121
 U 1 1 617C9993
 P 6700 5500
 F 0 "#PWR0121" H 6700 5350 50  0001 C CNN
@@ -1033,7 +1022,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 7400 4650 6900
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0122
+L cake-power:GND #PWR0122
 U 1 1 617FB772
 P 4650 7550
 F 0 "#PWR0122" H 4650 7300 50  0001 C CNN
@@ -1130,7 +1119,7 @@ Connection ~ 2200 4300
 Wire Wire Line
 	2200 4300 1650 4300
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0123
+L cake-power:GND #PWR0123
 U 1 1 618EE99C
 P 2200 4850
 F 0 "#PWR0123" H 2200 4600 50  0001 C CNN
@@ -1147,7 +1136,7 @@ SYNC1
 Wire Wire Line
 	1650 4800 1650 5000
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0124
+L cake-power:GND #PWR0124
 U 1 1 61913358
 P 3700 4800
 F 0 "#PWR0124" H 3700 4550 50  0001 C CNN
@@ -1186,7 +1175,7 @@ Wire Wire Line
 Text GLabel 2600 5100 3    50   Output ~ 0
 SD1n
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0125
+L cake-power:GND #PWR0125
 U 1 1 6195007E
 P 2950 5000
 F 0 "#PWR0125" H 2950 4750 50  0001 C CNN
@@ -1370,7 +1359,7 @@ Connection ~ 2150 1450
 Wire Wire Line
 	2150 1450 2750 1450
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0126
+L cake-power:GND #PWR0126
 U 1 1 616A6DAF
 P 2150 1850
 F 0 "#PWR0126" H 2150 1600 50  0001 C CNN
@@ -1383,7 +1372,7 @@ $EndComp
 Wire Wire Line
 	2150 1800 2150 1850
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0127
+L cake-power:GND #PWR0127
 U 1 1 616B3EF7
 P 4900 4950
 F 0 "#PWR0127" H 4900 4700 50  0001 C CNN
@@ -1442,17 +1431,6 @@ Wire Wire Line
 	11550 3150 11750 3150
 Wire Wire Line
 	11950 3150 11950 3100
-$Comp
-L HVPS-rescue:GND-P1-cakepwr #PWR0128
-U 1 1 616EB93E
-P 11750 3200
-F 0 "#PWR0128" H 11750 2950 50  0001 C CNN
-F 1 "GND-P1" H 11750 3027 50  0000 C CNN
-F 2 "" H 11750 3200 50  0001 C CNN
-F 3 "" H 11750 3200 50  0001 C CNN
-	1    11750 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11750 3200 11750 3150
 Wire Wire Line
@@ -1509,7 +1487,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 850  11550 900 
 $Comp
-L HVPS-rescue:GND-P1-cakepwr #PWR0129
+L cake-power:GND-P1 #PWR0129
 U 1 1 61747251
 P 11750 800
 F 0 "#PWR0129" H 11750 550 50  0001 C CNN
@@ -1588,7 +1566,7 @@ Wire Wire Line
 Wire Wire Line
 	13950 4850 13950 4950
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0131
+L cake-power:GND #PWR0131
 U 1 1 617DE0E6
 P 14950 4950
 F 0 "#PWR0131" H 14950 4700 50  0001 C CNN
@@ -1612,7 +1590,7 @@ $EndComp
 Wire Wire Line
 	14950 4850 14950 4950
 $Comp
-L HVPS-rescue:VOUT-P1-cakepwr #PWR0132
+L cake-power:VOUT-P1 #PWR0132
 U 1 1 617EF9E6
 P 13950 5450
 F 0 "#PWR0132" H 13950 5300 50  0001 C CNN
@@ -1642,7 +1620,7 @@ Wire Wire Line
 Text GLabel 14250 8000 2    50   Output ~ 0
 VCON-A1
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0133
+L cake-power:GND #PWR0133
 U 1 1 618009C5
 P 13950 8150
 F 0 "#PWR0133" H 13950 7900 50  0001 C CNN
@@ -1663,7 +1641,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 7350 14500 7350
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0134
+L cake-power:GND #PWR0134
 U 1 1 618117EF
 P 14500 7550
 F 0 "#PWR0134" H 14500 7300 50  0001 C CNN
@@ -1676,7 +1654,7 @@ $EndComp
 Text GLabel 15100 7350 3    50   Input ~ 0
 SD1n
 $Comp
-L HVPS-rescue:GND-cakepwr #PWR0135
+L cake-power:GND #PWR0135
 U 1 1 61867257
 P 15300 7300
 F 0 "#PWR0135" H 15300 7050 50  0001 C CNN
@@ -1697,4 +1675,26 @@ Wire Wire Line
 Connection ~ 4650 5850
 Text Notes 13100 7000 0    394  ~ 0
 Fix These\n
+$Comp
+L cake-power:GND #PWR?
+U 1 1 615AAD92
+P 1700 3650
+F 0 "#PWR?" H 1700 3400 50  0001 C CNN
+F 1 "GND" H 1700 3477 50  0000 C CNN
+F 2 "" H 1700 3650 50  0001 C CNN
+F 3 "" H 1700 3650 50  0001 C CNN
+	1    1700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cake-power:GND-P1 #PWR?
+U 1 1 615CE775
+P 11750 3200
+F 0 "#PWR?" H 11750 2950 50  0001 C CNN
+F 1 "GND-P1" H 11750 3027 50  0000 C CNN
+F 2 "" H 11750 3200 50  0001 C CNN
+F 3 "" H 11750 3200 50  0001 C CNN
+	1    11750 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
