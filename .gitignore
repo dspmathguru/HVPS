@@ -27,3 +27,5 @@ fp-info-cache
 
 # Do not store data from vendors in git
 vendors/
+
+.DS_Store

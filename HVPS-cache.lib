@@ -100,68 +100,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HVPS-rescue_GND-P1-cakepwr-HVPS-rescue
-#
-DEF HVPS-rescue_GND-P1-cakepwr-HVPS-rescue #PWR 0 0 N Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "HVPS-rescue_GND-P1-cakepwr-HVPS-rescue" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -25 -75 25 -75 N
-P 2 0 1 0 -5 -100 5 -100 N
-P 2 0 1 0 0 -50 0 0 N
-P 2 0 1 0 50 -50 -50 -50 N
-X GND-P1 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# HVPS-rescue_GND-P11-cakepwr-HVPS-rescue
-#
-DEF HVPS-rescue_GND-P11-cakepwr-HVPS-rescue #PWR 0 0 N Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "HVPS-rescue_GND-P11-cakepwr-HVPS-rescue" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -25 -75 25 -75 N
-P 2 0 1 0 -5 -100 5 -100 N
-P 2 0 1 0 0 -50 0 0 N
-P 2 0 1 0 50 -50 -50 -50 N
-X GND-P11 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# HVPS-rescue_VCC-P1-cakepwr-HVPS-rescue
-#
-DEF HVPS-rescue_VCC-P1-cakepwr-HVPS-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "HVPS-rescue_VCC-P1-cakepwr-HVPS-rescue" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -50 100 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 50 100 N
-X VCC-P1 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# HVPS-rescue_VOUT-P1-cakepwr-HVPS-rescue
-#
-DEF HVPS-rescue_VOUT-P1-cakepwr-HVPS-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "HVPS-rescue_VOUT-P1-cakepwr-HVPS-rescue" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -50 100 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 50 100 N
-X VOUT-P1 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # cake-TI_CSD17381F4
 #
 DEF cake-TI_CSD17381F4 U 0 40 N N 1 F N
@@ -470,6 +408,22 @@ X GND-P1 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# cake-power_GND-P11
+#
+DEF cake-power_GND-P11 #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "cake-power_GND-P11" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GND-P11 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # cake-power_VCC-P1
 #
 DEF cake-power_VCC-P1 #PWR 0 0 Y Y 1 F P
@@ -482,6 +436,21 @@ P 2 0 1 0 -50 100 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 50 100 N
 X VCC-P1 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# cake-power_VOUT-P1
+#
+DEF cake-power_VOUT-P1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "cake-power_VOUT-P1" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 50 100 N
+X VOUT-P1 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
